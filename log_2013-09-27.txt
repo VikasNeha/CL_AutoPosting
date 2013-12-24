@@ -1,0 +1,48 @@
+Sep 27, 2013 5:31:54 PM com.Main.CL_AutoPosting ReadInputData
+INFO: Reading All Input XLS
+Sep 27, 2013 5:32:43 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.className: formnote)
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_25'
+Session ID: aa3f0053-0578-4adb-aa9f-f94027cba63f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=22.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:388)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:522)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:520)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.PageEvents.WebPageEvents.waitAndFindElement(WebPageEvents.java:40)
+	at com.PageEvents.CLEvents.selectSubLocation(CLEvents.java:99)
+	at com.Main.PostAds.postOneAd(PostAds.java:135)
+	at com.Main.PostAds.PostAllAds(PostAds.java:36)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Window not found. The browser window may have been closed.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10526)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7510)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7668)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7615)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10336)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1935)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2261)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1168)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1616)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1464)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous8253105968525567297webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1333)
+

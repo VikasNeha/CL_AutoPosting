@@ -1,0 +1,242 @@
+Dec 17, 2013 9:04:04 PM com.Main.CL_AutoPosting ReadInputData
+INFO: Reading All Input XLS
+Dec 17, 2013 9:04:41 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.xpath: //input[@value='I ACCEPT'])
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Session ID: 0d3d6089-6689-40a4-a874-1ea6421abf38
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=22.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:522)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:520)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.PageEvents.WebPageEvents.waitAndFindElement(WebPageEvents.java:40)
+	at com.PageEvents.CLEvents.loginAs(CLEvents.java:32)
+	at com.Main.PostAds.loginAccountToCL(PostAds.java:86)
+	at com.Main.PostAds.postOneAd(PostAds.java:120)
+	at com.Main.PostAds.PostAllAds(PostAds.java:36)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Window not found. The browser window may have been closed.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10526)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7510)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7668)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:7615)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10336)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1935)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2261)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1168)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1616)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1464)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/NEHA-V~1/AppData/Local/Temp/anonymous3545045612758726666webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1333)
+
+Dec 17, 2013 9:04:42 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.xpath: //input[@value='I ACCEPT'])
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:522)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:520)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.PageEvents.WebPageEvents.waitAndFindElement(WebPageEvents.java:40)
+	at com.PageEvents.CLEvents.loginAs(CLEvents.java:32)
+	at com.Main.PostAds.loginAccountToCL(PostAds.java:86)
+	at com.Main.PostAds.postOneAd(PostAds.java:120)
+	at com.Main.PostAds.PostAllAds(PostAds.java:36)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7056 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:316)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 25 more
+
+Dec 17, 2013 9:04:43 PM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.linkText: log out)
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:522)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:520)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.PageEvents.WebPageEvents.waitAndFindElement(WebPageEvents.java:40)
+	at com.PageEvents.WebPageEvents.assertLinkPresent(WebPageEvents.java:64)
+	at com.PageEvents.CLEvents.assertLoginSuccessful(CLEvents.java:39)
+	at com.PageEvents.CLEvents.loginAs(CLEvents.java:34)
+	at com.Main.PostAds.loginAccountToCL(PostAds.java:86)
+	at com.Main.PostAds.postOneAd(PostAds.java:120)
+	at com.Main.PostAds.PostAllAds(PostAds.java:36)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7056 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:316)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 27 more
+
+Dec 17, 2013 9:04:43 PM com.Main.PostAds PostAllAds
+SEVERE: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver---org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:356)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:522)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:520)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.PageEvents.WebPageEvents.waitAndFindElement(WebPageEvents.java:40)
+	at com.PageEvents.WebPageEvents.assertLinkPresent(WebPageEvents.java:64)
+	at com.PageEvents.CLEvents.assertLoginSuccessful(CLEvents.java:39)
+	at com.PageEvents.CLEvents.loginAs(CLEvents.java:34)
+	at com.Main.PostAds.loginAccountToCL(PostAds.java:86)
+	at com.Main.PostAds.postOneAd(PostAds.java:120)
+	at com.Main.PostAds.PostAllAds(PostAds.java:36)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7056 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:316)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 27 more
+
+Dec 17, 2013 9:04:46 PM com.Main.CL_AutoPosting main
+SEVERE: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver---org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423)
+	at com.PageEvents.WebPageEvents.driverQuit(WebPageEvents.java:128)
+	at com.PageEvents.CLEvents.tearDown(CLEvents.java:59)
+	at com.Main.PostAds.PostAllAds(PostAds.java:79)
+	at com.Main.CL_AutoPosting.main(CL_AutoPosting.java:21)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7056 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:316)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 16 more
+
+Dec 17, 2013 9:04:46 PM com.Main.CL_AutoPosting WriteOutputData
+INFO: Writing Output

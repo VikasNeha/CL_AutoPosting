@@ -1,0 +1,2 @@
+Oct 17, 2013 3:17:27 PM com.Main.CL_AutoPosting ReadInputData
+INFO: Reading All Input XLS
